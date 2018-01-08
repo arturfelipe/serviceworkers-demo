@@ -13,6 +13,7 @@ self.addEventListener('install', event => {
         return cache.addAll([
           '/',
           '/img/bar.svg',
+          '/img/beer.svg',
           '/img/milk.svg'
         ])
       })

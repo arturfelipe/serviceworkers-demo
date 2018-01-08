@@ -12,6 +12,7 @@ self.addEventListener('install', event => {
         console.log(`[SW] Precaching ${CACHE_VERSION}`);
         return cache.addAll([
           '/',
+          '/img/beer.svg',
           '/img/bar.svg',
           '/img/milk.svg'
         ])
