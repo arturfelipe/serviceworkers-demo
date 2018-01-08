@@ -21,20 +21,21 @@ self.addEventListener('install', event => {
 });
 
 self.addEventListener('activate', event => {
-  console.log(`[SW] Activated ${CACHE_VERSION}  `);
+  console.log(`[SW] Activated ${CACHE_VERSION}`);
 });
 
 self.addEventListener('fetch', event => {
-  const url = new URL(event.request.url);
-
-  // Serve a glass of milk instead of a beer
-  if (url.origin == location.origin && url.pathname.endsWith('/img/beer.svg')) {
-    return event.respondWith(caches.match('/img/milk.svg'));
-  }
+  console.log(`[SW] Handling fetch ${CACHE_VERSION}`);
 
   event.respondWith(
     caches.match(event.request)
       .then(function(response) {
+        const url = new URL(event.request.url);
+
+        // Serve a glass of milk instead of a beer
+        if (url.origin == location.origin && url.pathname.endsWith('/img/beer.svg')) {
+          return caches.match('/img/milk.svg');
+        }
 
         // Cache hit - return response from cache
         if (response) {
