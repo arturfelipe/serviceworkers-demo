@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="42px" viewBox="0 0 37 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>glass-of-milk</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#C5C6C6" offset="0%"></stop>
+            <stop stop-color="#D9DADA" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="0%" cy="0%" fx="0%" fy="0%" r="0%" gradientTransform="translate(0.000000,0.000000),scale(0.082722,1.000000),translate(-0.000000,-0.000000)" id="radialGradient-2">
+            <stop stop-color="#FEFEFE" offset="0%"></stop>
+            <stop stop-color="#9D9E9E" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="glass-of-milk">
+            <path d="M33.153269,40.7880945 C33.153269,41.457736 26.5928648,42 18.4971674,42 C10.4071352,42 3.84673098,41.457736 3.84673098,40.7880945 L0,1.53036437 L37,1.53036437 L33.153269,40.7880945 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+            <path d="M31.4416181,38.5498118 C31.4416181,39.1428332 25.6488921,39.6194332 18.4971688,39.6194332 C11.3511079,39.6194332 5.55838186,39.1428332 5.55838186,38.5498118 L2.22317597,2.24453441 C5.34886978,2.72477258 11.4643577,3.04856952 18.4971688,3.04856952 C25.5299798,3.04856952 31.6511302,2.72477258 34.776824,2.24453441 L31.4416181,38.5498118 Z" id="Shape" fill="#D9DADA"></path>
+            <path d="M5.76967096,15.3232896 C5.76967096,15.7959549 2.29556622,15.0433264 2.60625852,14.5961123 L1.48211731,3.02672065 C1.7589159,3.23033031 3.45360114,3.9175129 5.44768076,3.92114879 L5.76967096,15.3232896 Z" id="Shape" fill="#FEFEFE"></path>
+            <ellipse id="Oval" fill="#EBECEC" cx="18.5" cy="21.3060729" rx="14.6359084" ry="1.20728745"></ellipse>
+            <path d="M31.4476945,38.5502365 C31.4476945,39.1430224 25.6522487,39.6194332 18.4971674,39.6194332 C11.3477513,39.6194332 5.5523055,39.1430224 5.5523055,38.5502365 L3.86409156,21.3230769 C4.84982722,21.9194996 11.0248379,22.3777268 18.4971674,22.3777268 C25.9751621,22.3777268 32.1501728,21.9194996 33.1359084,21.3230769 L31.4476945,38.5502365 Z" id="Shape" fill="#FEFEFE"></path>
+            <ellipse id="Oval" fill="url(#radialGradient-2)" cx="18.5" cy="1.53036437" rx="18.5" ry="1.53036437"></ellipse>
+            <ellipse id="Oval" fill="#EBECEC" cx="18.711731" cy="1.58137652" rx="17.3354793" ry="1.24129555"></ellipse>
+        </g>
+    </g>
+</svg>

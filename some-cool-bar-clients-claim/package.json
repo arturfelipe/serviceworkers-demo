@@ -1,0 +1,10 @@
+{
+  "name": "some-cool-bar-sw-demo-clients-claim",
+  "version": "0.1.0",
+  "description": "Service Worker Some Cool Bar DEMO",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Artur Sousa <arturfelipe.sousa@gmail.com>",
+  "license": "MIT"
+}
