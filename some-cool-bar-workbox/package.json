@@ -4,7 +4,7 @@
   "description": "Service Worker Some Cool Bar DEMO with Workbox",
   "scripts": {
     "start": "http-server dist -c-1",
-    "build": "workbox generateSW workbox-config.js"
+    "build": "workbox injectManifest"
   },
   "author": "Artur Sousa <arturfelipe.sousa@gmail.com>",
   "license": "MIT",
