@@ -37,20 +37,23 @@
 <body>
   <div class="bar" id="bar">
     <h1 class="bar__sign">Some Cool Bar</h1>
-    <img src="./img/bar.svg">
+    <img src="/img/bar.svg">
     <button class="button" onclick="orderBeer()">Order a beer</button>
   </div>
   <script>
-    navigator.serviceWorker.register('sw.js')
-      .then(register => console.log('[WEB] Service Worker registered :P', register))
-      .catch(err => console.log('[WEB] Service Worker fail to register :/', err));
+    navigator.serviceWorker.register('/sw.js')
+      .then(register => {
+        console.log('[WEB] Service Worker registered :P', register);
+      })
+      .catch(err => {
+        console.log('[WEB] Service Worker fail to register :/', err);
+      });
 
     function orderBeer() {
       const img = new Image();
       img.src = '/img/beer.svg';
       img.className = 'beer';
-      const bar = document.getElementById('bar');
-      bar.appendChild(img);
+      document.getElementById('bar').appendChild(img);
     }
   </script>
 </body>
