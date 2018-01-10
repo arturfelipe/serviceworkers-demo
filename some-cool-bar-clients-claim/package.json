@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "description": "Service Worker Some Cool Bar DEMO with clients claim",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server dist -c-1 -p 8081"
   },
   "author": "Artur Sousa <arturfelipe.sousa@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.11.0"
+  }
 }

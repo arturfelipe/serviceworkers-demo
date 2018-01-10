@@ -21,7 +21,7 @@ self.addEventListener('install', event => {
 });
 
 self.addEventListener('activate', event => {
-  console.log(`[SW] Activated ${CACHE_NAME}`);
+  console.log(`[SW] Activated ${CACHE_NAME} with clients.claim()`);
 
   // Set the current sw as the controller of all the clients its scope
   clients.claim();

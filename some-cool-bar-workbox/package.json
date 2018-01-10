@@ -1,9 +1,9 @@
 {
-  "name": "some-cool-bar-sw-workbox",
+  "name": "some-cool-bar-sw-demo-workbox",
   "version": "0.1.0",
   "description": "Service Worker Some Cool Bar DEMO with Workbox",
   "scripts": {
-    "start": "http-server dist -c-1",
+    "start": "http-server dist -c-1 -p 8082",
     "build": "workbox injectManifest"
   },
   "author": "Artur Sousa <arturfelipe.sousa@gmail.com>",
