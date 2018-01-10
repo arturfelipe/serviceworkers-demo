@@ -1,5 +1,5 @@
 {
-  "name": "some-cool-bar-workbox",
+  "name": "some-cool-bar-sw-workbox",
   "version": "0.1.0",
   "description": "Service Worker Some Cool Bar DEMO with Workbox",
   "scripts": {
